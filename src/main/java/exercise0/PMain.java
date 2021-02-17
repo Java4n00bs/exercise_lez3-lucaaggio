@@ -3,6 +3,11 @@ package exercise0;
 public class PMain {
     public static void main(String[] args) {
 
+      Persona persona1 = new Persona ("Luca","Aggio", 21);
+      Persona persona2 = new Persona ("Sempre io","tra un anno",22);
+      Persona persona3 = persona1;
+
+      System.out.println(persona3.dettagli());
     }
 }
 
