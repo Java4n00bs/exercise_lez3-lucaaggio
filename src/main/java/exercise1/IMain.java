@@ -2,7 +2,7 @@ package exercise1;
 
 public class IMain {
     public static void main(String[] args) {
-      Impiegato staggista = new Impiegato("Francesco","Rinaldi",220);
+      Impiegato staggista = new Impiegato("Francesco","Rinaldi",1200);
       staggista.aumentaSalario(10);
       System.out.println(staggista.dettagli());
     }

@@ -10,19 +10,21 @@ public class Persona {
 
 
 public Persona(){
-  this.name="n";
+  this.nome="n";
   this.cognome="";
 }
 
-public Persona (String nome,String cognome ,int eta){
+public Persona (String nome,String cognome ,int eta, int anno){
   this.nome= nome;
   this.cognome= cognome;
   this.eta=eta;
+  this.anno=anno;
 }
 
   public String dettagli(){
 
-    String d = "la persona chiama" + this.nome + " " + this.cognome "e ha" + this.eta + "è nata nell'anno" + this.anno;
+    String d = "la persona si chiama " + this.nome + " " + this.cognome + ", ha " + this.eta + " anni, è nata nell'anno: " + this.anno;
+    return d;
   }
 
 }
